@@ -9,6 +9,11 @@ spring:
     port: 5672
     username: admin
     password: admin
+  inetutils:
+      ignored-interfaces:
+        - VM.*
+      preferred-networks:
+        - 172.88.1
   
     
 server:
